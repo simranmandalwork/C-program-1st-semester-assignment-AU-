@@ -10,8 +10,9 @@ int main()
 	scanf("%f",&r);
 	printf("\nEnter the time:");
 	scanf("%f",&t);
-	a=p*(1+r);
-	c=pow(a,t);
+	a=(1+r);
+	c=p*pow(a,t);
 	printf("\n The compound interest is:%.2f",c);
 	return 0;
+
 }
