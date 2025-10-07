@@ -11,6 +11,8 @@ int main()
 	   break;
 	case 0:
 	   printf("You are not eligible to vote");
+	break;
 }
 	return 0;
+
 }
