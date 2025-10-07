@@ -7,12 +7,13 @@ int main()
 	switch(age>=18)
 {
 	case 1:
-	   printf("You are eligible to vote");
+	   printf("You are eligible.");
 	   break;
 	case 0:
-	   printf("You are not eligible to vote");
+	   printf("You are not eligible.");
 	break;
 }
 	return 0;
 
 }
+
