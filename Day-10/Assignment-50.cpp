@@ -2,7 +2,7 @@
 int main()
 {
 	int n,a,n1,r=0;
-	printf("Enter a digit :");
+	printf("Enter a number :");
 	scanf("%d",&n);
 	n1=n;
 	while(n>0)
@@ -18,4 +18,5 @@ printf("\n %d number is a palindrom number ",r);
 else
 printf("\n %d is not a palindrom number",r);
 	return 0;
+
 }
