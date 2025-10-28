@@ -5,7 +5,7 @@ int main()
 	char c='A';
 	for(i=1;i<=4;i++)
 	{
-		for(j=1;j<=4-i;j++)
+	for(j=1;j<=4-i;j++)
 		{
 			printf(" ");
 		}
@@ -16,4 +16,5 @@ int main()
 		printf("\n");
 	}
 	return 0;
+
 }
