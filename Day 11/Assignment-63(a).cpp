@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 int main()
 {
     char str[100];
@@ -12,3 +13,4 @@ int main()
     printf("Length of the string = %d\n",l);
     return 0;
 }
+
