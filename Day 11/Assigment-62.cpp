@@ -8,7 +8,7 @@ int main()
     scanf("%s",str);
     a=strlen(str);
     j=a-1;
-    for(i=0;i<a;i++)
+    for(i=0;i<j;i++)
     {
         if(str[i]!=str[j])
         {
@@ -23,3 +23,4 @@ int main()
         printf("The string is not a palindrome.\n");
     return 0;
 }
+
