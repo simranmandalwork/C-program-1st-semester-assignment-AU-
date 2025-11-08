@@ -4,9 +4,8 @@ int main()
     int arr[100],n,i,key,found=0;
     printf("Enter how many elements you want :");
     scanf("%d",&n);
-    printf("Enter %d numbers:\n",n);
     for(i=0;i<n;i++)
-	{
+	{printf("\n Enter %d element:",i+1);
      scanf("%d",&arr[i]);
     }
     printf("Enter the number you want to search: ");
