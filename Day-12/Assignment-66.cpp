@@ -23,11 +23,11 @@ int main()
 	printf("Enter 2nd number: ");
 	scanf("%d",&b);
 	swap1(a,b);
-	printf("\n Using call by reference:");
+	printf("\n Using call by value:");
 	printf("\nThe value of a is %d",a);
 	printf("\nThe value of b is %d",b);
 	swap2(&a,&b);
-	printf("\n Using call by value:");
+	printf("\n Using call by reference:");
 	printf("\nThe value of a is %d",a);
 	printf("\nThe value of b is %d",b);
 	return 0;
