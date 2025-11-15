@@ -25,13 +25,9 @@ int main()
 	swap1(a,b);
 	printf("\nThe value of a is %d",a);
 	printf("\nThe value of b is %d",b);
-	int x,y;
-	printf("\nEnter 1st number: ");
-	scanf("%d",&x);
-	printf("Enter 2nd number: ");
-	scanf("%d",&y);
-	swap2(&x,&y);
-	printf("\nThe value of a is %d",x);
-	printf("\nThe value of b is %d",y);
+	swap2(&a,&b);
+	printf("\nThe value of a is %d",a);
+	printf("\nThe value of b is %d",b);
 	return 0;
 }
+
