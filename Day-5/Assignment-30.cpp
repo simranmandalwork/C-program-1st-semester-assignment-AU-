@@ -17,7 +17,7 @@ int main()
    {
    printf("\n Grate:'o'");
 }
-else if(avg>=89)
+else if(avg>=79)
 {
 	printf("\n grade:'A+'");
 }
@@ -44,3 +44,4 @@ else
 }
    return 0;
 }
+
